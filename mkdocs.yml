@@ -1,0 +1,77 @@
+site_name: My AI Journal
+site_description: A personal blog of all the bits and bites throughout my AI self-learning journey
+site_author: Daedalus (DD)
+site_url: https://daedaluschan.github.io/weblog/
+repo_url: https://github.com/daedaluschan/weblog
+repo_name: daedaluschan/weblog
+
+theme:
+  name: material
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search
+  - blog:
+      blog_dir: blog
+      post_dir: "{blog}/posts"
+      post_url_format: "{date}/{slug}"
+      post_date_format: long
+      post_excerpt: required
+      post_readtime: true
+      pagination: true
+      pagination_per_page: 5
+      archive: true
+      archive_name: Archive
+      archive_date_format: MMMM yyyy
+      archive_url_date_format: yyyy/MM
+      categories: true
+      categories_name: Categories
+  - tags:
+      tags_file: tags.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+nav:
+  - Home: index.md
+  - Blog:
+      - blog/index.md
+  - Tags: tags.md
