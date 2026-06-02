@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">My AI Journal cover</title>
+  <desc id="desc">Abstract notebook and neural network illustration for My AI Journal.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1a237e"/>
+      <stop offset="55%" stop-color="#283593"/>
+      <stop offset="100%" stop-color="#ff7043"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="995" cy="110" r="190" fill="#fff" opacity="0.08"/>
+  <circle cx="160" cy="560" r="220" fill="#fff" opacity="0.07"/>
+  <g filter="url(#shadow)">
+    <rect x="165" y="125" width="430" height="365" rx="28" fill="#fff" opacity="0.94"/>
+    <path d="M230 205h260M230 260h300M230 315h220M230 370h280" stroke="#283593" stroke-width="18" stroke-linecap="round" opacity="0.72"/>
+    <path d="M180 150c70 48 126 48 168 0" fill="none" stroke="#ff7043" stroke-width="16" stroke-linecap="round"/>
+  </g>
+  <g fill="none" stroke="#fff" stroke-width="8" opacity="0.78">
+    <path d="M720 210l120 80 125-105 80 145-110 90-140-35-75-175z"/>
+    <circle cx="720" cy="210" r="22" fill="#fff"/>
+    <circle cx="840" cy="290" r="22" fill="#fff"/>
+    <circle cx="965" cy="185" r="22" fill="#fff"/>
+    <circle cx="1045" cy="330" r="22" fill="#fff"/>
+    <circle cx="935" cy="420" r="22" fill="#fff"/>
+    <circle cx="795" cy="385" r="22" fill="#fff"/>
+  </g>
+  <text x="690" y="500" fill="#fff" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="800">My AI Journal</text>
+  <text x="694" y="552" fill="#fff" font-family="Inter, Arial, sans-serif" font-size="28" opacity="0.86">bits, bites, and AI learning notes</text>
+</svg>
