@@ -6,7 +6,7 @@ This site is built for mixed personal and technical notes: experiments, reflecti
 
 ## Start reading
 
-- Visit the [Blog](blog/) for posts in reverse chronological order.
+- Visit the [Blog](blog/index.md) for posts in reverse chronological order.
 - Browse [Tags](tags.md) when you want a topic-focused trail.
 - Check generated archive and category pages as the post collection grows.
 

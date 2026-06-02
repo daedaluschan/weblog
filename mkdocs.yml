@@ -52,8 +52,7 @@ plugins:
       archive_url_date_format: yyyy/MM
       categories: true
       categories_name: Categories
-  - tags:
-      tags_file: tags.md
+  - tags
 
 markdown_extensions:
   - admonition

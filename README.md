@@ -42,7 +42,7 @@ In the GitHub web UI:
 
 ### 4. About the Node.js 20 deprecation warning
 
-If GitHub shows a warning such as `Node.js 20 actions are deprecated`, the workflow opts into the Node.js 24 JavaScript action runtime with `FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true`. It also uses the latest newer major versions where available: `actions/checkout@v6`, `actions/setup-python@v6`, and `actions/upload-pages-artifact@v4`. The Pages actions remain on the current supported major versions, `actions/configure-pages@v5` and `actions/deploy-pages@v4`, while the Node.js 24 runtime flag handles the deprecation warning.
+If GitHub shows a warning such as `Node.js 20 actions are deprecated`, make sure the workflow run is using the latest copy of `.github/workflows/pages.yml`. This workflow now uses the Node.js 24-compatible major versions available for the build steps: `actions/checkout@v6`, `actions/setup-python@v6`, and `actions/upload-pages-artifact@v4`. The deploy step uses the current official GitHub Pages deploy action, `actions/deploy-pages@v4`, and the workflow also opts into the Node.js 24 JavaScript action runtime with `FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true`.
 
 ### 5. Trigger the first deployment
 
