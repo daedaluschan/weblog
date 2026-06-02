@@ -40,7 +40,11 @@ In the GitHub web UI:
 3. Under **Actions permissions**, allow GitHub Actions for this repository.
 4. Under **Workflow permissions**, the default **Read repository contents permission** is enough because the workflow explicitly requests `pages: write` and `id-token: write` permissions.
 
-### 4. Trigger the first deployment
+### 4. About the Node.js 20 deprecation warning
+
+If GitHub shows a warning such as `Node.js 20 actions are deprecated`, the workflow opts into the Node.js 24 JavaScript action runtime with `FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true`. It also uses the latest newer major versions where available: `actions/checkout@v6`, `actions/setup-python@v6`, and `actions/upload-pages-artifact@v4`. The Pages actions remain on the current supported major versions, `actions/configure-pages@v5` and `actions/deploy-pages@v4`, while the Node.js 24 runtime flag handles the deprecation warning.
+
+### 5. Trigger the first deployment
 
 After the settings above are in place, push a commit to `main` or `master`, or run the workflow manually:
 
@@ -50,7 +54,7 @@ After the settings above are in place, push a commit to `main` or `master`, or r
 
 When the run completes, GitHub shows the deployed Pages URL in the deployment summary. It should be `https://daedaluschan.github.io/weblog/` for this repository.
 
-### 5. Optional custom domain
+### 6. Optional custom domain
 
 No custom domain is required. If you add one later, configure it in **Settings** → **Pages** and then update `site_url` in `mkdocs.yml` to match the custom domain.
 
