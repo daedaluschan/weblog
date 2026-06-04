@@ -69,6 +69,9 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
 
+extra_javascript:
+  - assets/javascripts/share-buttons.js
+
 nav:
   - Home: index.md
   - Blog:
