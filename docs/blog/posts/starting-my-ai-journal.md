@@ -87,4 +87,4 @@ My plan is to keep this journal practical. Some posts will be polished explanati
 
 [Share on X](https://twitter.com/intent/tweet?text=Starting%20My%20AI%20Journal&url=https%3A%2F%2Fdaedaluschan.github.io%2Fweblog%2Fblog%2F2026%2F06%2F02%2Fstarting-my-ai-journal%2F){ .md-button target="_blank" rel="noopener" }
 [Share on LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fdaedaluschan.github.io%2Fweblog%2Fblog%2F2026%2F06%2F02%2Fstarting-my-ai-journal%2F){ .md-button target="_blank" rel="noopener" }
-[Share on Facebook](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdaedaluschan.github.io%2Fweblog%2Fblog%2F2026%2F06%2F02%2Fstarting-my-ai-journal%2F){ .md-button target="_blank" rel="noopener" }
+[Share on Facebook](https://m.facebook.com/sharer.php?u=https%3A%2F%2Fdaedaluschan.github.io%2Fweblog%2Fblog%2F2026%2F06%2F02%2Fstarting-my-ai-journal%2F){ .md-button target="_blank" rel="noopener" data-share-platform="facebook" data-share-url="https://daedaluschan.github.io/weblog/blog/2026/06/02/starting-my-ai-journal/" data-share-title="Starting My AI Journal" data-share-text="Starting My AI Journal" }
