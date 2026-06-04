@@ -305,3 +305,9 @@ GitHub Pages publishes it.
 ```
 
 呢個就係我建立 MkDocs blog 時，對 GitHub Actions 最大嘅理解。
+
+## Share this post
+
+[Share on X](https://twitter.com/intent/tweet?text=What%20I%20Learnt%20About%20GitHub%20Actions%20When%20Building%20My%20MkDocs%20Blog&url=https%3A%2F%2Fdaedaluschan.github.io%2Fweblog%2Fblog%2F2026%2F06%2F04%2Fwhat-i-learnt-about-github-actions-when-building-my-mkdocs-blog%2F){ .md-button target="_blank" rel="noopener" }
+[Share on LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fdaedaluschan.github.io%2Fweblog%2Fblog%2F2026%2F06%2F04%2Fwhat-i-learnt-about-github-actions-when-building-my-mkdocs-blog%2F){ .md-button target="_blank" rel="noopener" }
+[Share on Facebook](https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdaedaluschan.github.io%2Fweblog%2Fblog%2F2026%2F06%2F04%2Fwhat-i-learnt-about-github-actions-when-building-my-mkdocs-blog%2F){ .md-button target="_blank" rel="noopener" }
