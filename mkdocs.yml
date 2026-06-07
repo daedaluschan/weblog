@@ -52,6 +52,9 @@ plugins:
       archive_url_date_format: yyyy/MM
       categories: true
       categories_name: Categories
+  # Do not add `tags_file`; Material for MkDocs now discovers
+  # `<!-- material/tags -->` in docs/tags.md automatically, and
+  # `mkdocs build --strict` fails if deprecated options warn.
   - tags
 
 markdown_extensions:
@@ -68,9 +71,6 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tasklist:
       custom_checkbox: true
-
-extra_javascript:
-  - assets/javascripts/share-buttons.js
 
 nav:
   - Home: index.md

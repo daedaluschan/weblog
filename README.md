@@ -58,6 +58,24 @@ When the run completes, GitHub shows the deployed Pages URL in the deployment su
 
 No custom domain is required. If you add one later, configure it in **Settings** → **Pages** and then update `site_url` in `mkdocs.yml` to match the custom domain.
 
+## Troubleshooting strict build failures
+
+If GitHub Actions fails with this warning:
+
+```text
+WARNING -  Config value 'plugins': Plugin 'material/tags' option 'tags_file': This setting is not required anymore
+Aborted with 1 configuration warnings in 'strict' mode!
+```
+
+then the workflow is building an older `mkdocs.yml` that still contains `tags_file`. The current configuration intentionally uses only:
+
+```yaml
+plugins:
+  - tags
+```
+
+and the tags page marker lives in `docs/tags.md` as `<!-- material/tags -->`. Push the latest commit, rerun the workflow from that commit, and confirm the Actions run shows the updated `mkdocs.yml`.
+
 ## Local preview
 
 ```bash

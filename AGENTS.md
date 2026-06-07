@@ -64,8 +64,6 @@ Notes:
 
 - Keep post files in Markdown.
 - Include `<!-- more -->` because `mkdocs.yml` currently requires post excerpts.
-- When asked to add a new post, decide and fill in appropriate front matter metadata, including date, authors, tags, categories, and image.
-- When asked to add a new post, add social media share buttons for visitors near the end of the post, using Material button syntax and the final published post URL. Include at least X, LinkedIn, and Facebook share links.
 - Reuse images from `docs/assets/images/` when possible.
 - Author metadata is stored in `docs/blog/.authors.yml`.
 - The tags page uses the Material marker in `docs/tags.md`; do not reintroduce deprecated `tags_file` configuration in `mkdocs.yml`.
