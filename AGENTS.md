@@ -67,6 +67,7 @@ Notes:
 - Reuse images from `docs/assets/images/` when possible.
 - Author metadata is stored in `docs/blog/.authors.yml`.
 - The tags page uses the Material marker in `docs/tags.md`; do not reintroduce deprecated `tags_file` configuration in `mkdocs.yml`.
+- When adding a new blog post, update the `nav` side menu in `mkdocs.yml` so the post appears under the Blog section.
 
 ## Deployment details
 

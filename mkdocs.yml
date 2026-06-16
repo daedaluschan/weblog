@@ -75,5 +75,8 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Blog:
-      - blog/index.md
+      - Blog Home: blog/index.md
+      - Starting My AI Journal: https://daedaluschan.github.io/weblog/blog/2026/06/02/starting-my-ai-journal/
+      - What I Learnt About GitHub Actions When Building My MkDocs Blog: https://daedaluschan.github.io/weblog/blog/2026/06/04/what-i-learnt-about-github-actions-when-building-my-mkdocs-blog/
+      - Hiring in the Age of AI Noise: https://daedaluschan.github.io/weblog/blog/2026/06/16/hiring-in-the-age-of-ai-noise/
   - Tags: tags.md
